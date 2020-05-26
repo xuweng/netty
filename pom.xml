@@ -16,6 +16,11 @@
         <module>netty-chapter6</module>
         <module>netty-chapter7</module>
         <module>netty-chapter8</module>
+        <module>netty-chapter9</module>
+        <module>netty-chapter10</module>
+        <module>netty-chapter11</module>
+        <module>netty-chapter12</module>
+        <module>netty-chapter13</module>
     </modules>
     <properties>
         <junit.version>4.11</junit.version>

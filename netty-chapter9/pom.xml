@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>netty-chapter8</artifactId>
+    <artifactId>netty-chapter9</artifactId>
     <version>2.0-SNAPSHOT</version>
 
-    <name>netty-chapter8</name>
+    <name>netty-chapter9</name>
     <packaging>jar</packaging>
     <!-- FIXME change it to the project's website -->
     <!--    <url>http://www.example.com</url>-->
