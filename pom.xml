@@ -6,7 +6,7 @@
     <artifactId>netty-parent</artifactId>
     <version>2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Netty in Action</name>
+    <name>netty-parent</name>
     <modules>
         <module>netty-client</module>
         <module>netty-server</module>
