@@ -6,6 +6,7 @@ Netty实战
 2、在idea上new---->project from version ,复制仓库url
 3、clone 仓库后,这个仓库就是idea的project
 4、在project上开始new module.发现project的pom.xml文件添加<modules>结点
-5、在idea comint和 push
+5、修改module的pom.xml文件
+6、在idea comint和 push
 # github
 1、github会检查pom.xml
