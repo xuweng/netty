@@ -10,6 +10,7 @@
     <modules>
         <module>netty-utils</module>
         <module>netty-chapter1</module>
+        <module>netty-chapter2</module>
     </modules>
     <properties>
         <junit.version>4.11</junit.version>
