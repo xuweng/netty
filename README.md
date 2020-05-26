@@ -30,6 +30,9 @@ github
     
     一个tab
     
+    如何同步更新Github上Fork的项目？
+    https://www.jianshu.com/p/8ab6ef7ce5e3
+    
 maven
 
     注意事项：
