@@ -9,7 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 import java.net.InetSocketAddress;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Listing 4.4 Asynchronous networking with Netty
@@ -20,7 +20,7 @@ public class NettyNioServer {
     public void server(int port) throws Exception {
         final ByteBuf buf =
                 Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi!\r\n",
-                        Charset.forName("UTF-8")));
+                        StandardCharsets.UTF_8));
         NioEventLoopGroup group = new NioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();

@@ -9,7 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.oio.OioServerSocketChannel;
 
 import java.net.InetSocketAddress;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Listing 4.3 Blocking networking with Netty
@@ -20,7 +20,7 @@ public class NettyOioServer {
     public void server(int port)
             throws Exception {
         final ByteBuf buf =
-                Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi!\r\n", Charset.forName("UTF-8")));
+                Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Hi!\r\n", StandardCharsets.UTF_8));
         EventLoopGroup group = new OioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();
