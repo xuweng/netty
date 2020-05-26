@@ -13,3 +13,8 @@ Netty实战
 # 学习
 netty官方的例子学习
 重复操作3遍?重复操作10遍?重复操作这么多遍不会也会
+# maven
+注意事项：
+Maven Reactor 构建顺序：先是 父 POM，然后是子项目
+Netty artifact 没在用户的本地存储库中找到，所以 Maven 就会从互联网上下载
+clean 和 compile 在构建生命周期的运行。事后 mavensurefire-plugin 插件运行，但不会有测试类存在。最后 mavenjar-plugin 执行
