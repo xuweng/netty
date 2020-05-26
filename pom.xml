@@ -9,6 +9,7 @@
     <name>Netty in Action</name>
     <modules>
         <module>netty-client</module>
+        <module>netty-server</module>
     </modules>
     <properties>
         <junit.version>4.11</junit.version>
